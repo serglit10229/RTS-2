@@ -50,7 +50,7 @@ public class BuildMenu : MonoBehaviour {
         // Note: this enables GUIs if we have no instance at the moment, and
         //       it disables GUIs if we currently have one. Its just written in
         //       a fancy way. (it can also be done with a if-else construct)
-        GUI.enabled = (instance == null);
+        //GUI.enabled = (instance == null);
         if (GUILayout.Button("BUILD CASTLE")) {
             // Instantiate the prefab and keep track of it by assigning it to
             // our instance variable.
