@@ -12,8 +12,9 @@ public class MoveByPlayer : MonoBehaviour {
             // Find out where the user clicked in the 3D world
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
+            int r = Random.Range(3, 9);
             if (Physics.Raycast(ray, out hit))
-                GetComponent<UnityEngine.AI.NavMeshAgent>().destination = hit.point;
+                GetComponent<UnityEngine.AI.NavMeshAgent>().destination = hit.point + r;
         }
     }
 }
