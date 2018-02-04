@@ -58,7 +58,10 @@ GameObject:
   - component: {fileID: 114565558615156408}
   - component: {fileID: 114736069951990202}
   - component: {fileID: 195014760044270074}
+<<<<<<< HEAD
   - component: {fileID: 136961928373353824}
+=======
+>>>>>>> parent of 9251041... Stuff
   m_Layer: 0
   m_Name: Laser_Bot 1
   m_TagString: Untagged
@@ -398,6 +401,7 @@ MonoBehaviour:
   interval: 1.5
   enemyTag: 
   arrow: {fileID: 0}
+<<<<<<< HEAD
 --- !u!136 &136961928373353824
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -411,6 +415,8 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 3, z: 0}
+=======
+>>>>>>> parent of 9251041... Stuff
 --- !u!195 &195014760044270074
 NavMeshAgent:
   m_ObjectHideFlags: 1
@@ -419,8 +425,13 @@ NavMeshAgent:
   m_GameObject: {fileID: 1397894124517464}
   m_Enabled: 1
   m_AgentTypeID: 0
+<<<<<<< HEAD
   m_Radius: 1.5
   m_Speed: 6
+=======
+  m_Radius: 0.5
+  m_Speed: 3.5
+>>>>>>> parent of 9251041... Stuff
   m_Acceleration: 20
   avoidancePriority: 50
   m_AngularSpeed: 1200
@@ -428,7 +439,12 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
+<<<<<<< HEAD
   m_Height: 2.5
   m_BaseOffset: -1.85
+=======
+  m_Height: 2
+  m_BaseOffset: 0
+>>>>>>> parent of 9251041... Stuff
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 1
